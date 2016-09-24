@@ -82,7 +82,6 @@ Write your code in the attachEventListeners() function defintion, which starts o
 	 */
 	function slide() {
 		var translateX = toggleTracker.getTranslateX();
-		console.log(translateX);
 		toggle.style.webkitTransform = "translateX(" + translateX + "px)";
 		toggle.style.transform = "translateX(" + translateX + "px)";
 	}
